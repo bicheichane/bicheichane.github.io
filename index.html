@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lusitania Consulting LLC - Software Engineering Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem 0;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #48bb78;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 2rem;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #38a169;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #1a365d;
+            margin-bottom: 2rem;
+        }
+
+        .contact-section {
+            background: #f7fafc;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        footer {
+            background: #1a365d;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Lusitania Consulting LLC</h1>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Transform Your Business Through Technology</h2>
+            <p>Expert software engineering solutions for tomorrow's challenges</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="services">
+            <div class="service-card">
+                <h3>Custom Software Development</h3>
+                <p>Tailored solutions designed to meet your unique business requirements and drive growth.</p>
+            </div>
+            <div class="service-card">
+                <h3>Cloud Solutions & Architecture</h3>
+                <p>Scalable cloud infrastructure design and implementation for modern enterprises.</p>
+            </div>
+            <div class="service-card">
+                <h3>DevOps & Automation</h3>
+                <p>Streamlined development workflows and CI/CD pipelines for rapid, reliable deployments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Ready to Innovate?</h2>
+            <p>Contact us to discuss your software engineering needs</p>
+            <p>lusitania.consulting.llc@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Lusitania Consulting LLC - Delivering Technical Excellence</p>
+        </div>
+    </footer>
+</body>
+</html>
